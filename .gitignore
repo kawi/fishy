@@ -1,0 +1,5 @@
+/.gradle
+/build
+/bin
+/lib
+/src/main/webapp/WEB-INF/lib

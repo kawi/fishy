@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/commons-lang/commons-lang/sources/commons-lang-2.4-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/javassist/javassist/sources/javassist-3.8.0.GA-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/javassist/javassist/jars/javassist-3.8.0.GA.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/log4j/log4j/sources/log4j-1.2.16-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/log4j/log4j/bundles/log4j-1.2.16.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/revolt/sources/revolt-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/revolt/jars/revolt-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-jdbc/sources/spring-jdbc-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-jdbc/jars/spring-jdbc-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/backport-util-concurrent/backport-util-concurrent/sources/backport-util-concurrent-3.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/backport-util-concurrent/backport-util-concurrent/jars/backport-util-concurrent-3.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/karl/.gradle/cache/rhino/js/jars/js-1.6R7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-oxm/sources/spring-oxm-3.0.3.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-oxm/jars/spring-oxm-3.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/karl/.gradle/cache/net.sf.json-lib/json-lib/jars/json-lib-2.2.3-jdk15.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/cachius/sources/cachius-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/cachius/jars/cachius-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-beans/sources/spring-beans-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-beans/jars/spring-beans-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/xpp3/xpp3_min/sources/xpp3_min-1.1.4c-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/xpp3/xpp3_min/jars/xpp3_min-1.1.4c.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.freemarker/freemarker/sources/freemarker-2.3.18-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.freemarker/freemarker/jars/freemarker-2.3.18.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-aop/sources/spring-aop-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-aop/jars/spring-aop-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.slf4j/jcl-over-slf4j/sources/jcl-over-slf4j-1.6.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.6.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/javax.transaction/jta/sources/jta-1.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/javax.transaction/jta/jars/jta-1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/cglib/cglib-nodep/sources/cglib-nodep-2.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.hibernate/hibernate-commons-annotations/sources/hibernate-commons-annotations-3.2.0.Final-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.2.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-test/sources/spring-test-3.0.3.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-test/jars/spring-test-3.0.3.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/commons-collections/commons-collections/sources/commons-collections-3.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/commons-collections/commons-collections/jars/commons-collections-3.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/common/sources/common-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/common/jars/common-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.slf4j/slf4j-log4j12/sources/slf4j-log4j12-1.6.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/commons-io/commons-io/sources/commons-io-1.4-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/commons-io/commons-io/jars/commons-io-1.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/net.sf.ehcache/ehcache/sources/ehcache-1.5.0-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/net.sf.ehcache/ehcache/jars/ehcache-1.5.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/content/sources/content-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/content/jars/content-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-context-support/sources/spring-context-support-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-context-support/jars/spring-context-support-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-core/sources/spring-core-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-core/jars/spring-core-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/javax.servlet/servlet-api/sources/servlet-api-2.5-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-context/sources/spring-context-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-context/jars/spring-context-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-webmvc/sources/spring-webmvc-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/karl/.gradle/cache/org.opensymphony.quartz/quartz/jars/quartz-1.6.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/commons-fileupload/commons-fileupload/sources/commons-fileupload-1.2.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/javax.mail/mail/sources/mail-1.4.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/javax.mail/mail/jars/mail-1.4.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.slf4j/slf4j-api/sources/slf4j-api-1.6.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-orm/sources/spring-orm-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-orm/jars/spring-orm-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/media/sources/media-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/media/jars/media-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/com.yahoo.platform.yui/yuicompressor/sources/yuicompressor-2.4.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/com.yahoo.platform.yui/yuicompressor/jars/yuicompressor-2.4.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/net.sf.ezmorph/ezmorph/sources/ezmorph-1.0.6-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/xml-apis/xml-apis/sources/xml-apis-1.0.b2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/net.sf.ehcache/ehcache-core/sources/ehcache-core-1.7.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/commons-beanutils/commons-beanutils/sources/commons-beanutils-1.7.0-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/com.thoughtworks.xstream/xstream/sources/xstream-1.3.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/com.thoughtworks.xstream/xstream/jars/xstream-1.3.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-web/sources/spring-web-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-web/jars/spring-web-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/antlr/antlr/sources/antlr-2.7.6-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/antlr/antlr/jars/antlr-2.7.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/dom4j/dom4j/sources/dom4j-1.6.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-tx/sources/spring-tx-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-tx/jars/spring-tx-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-asm/sources/spring-asm-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-asm/jars/spring-asm-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/aopalliance/aopalliance/sources/aopalliance-1.0-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/javax.activation/activation/sources/activation-1.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/javax.activation/activation/jars/activation-1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/sources/hibernate-jpa-2.0-api-1.0.0.Final-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/jars/hibernate-jpa-2.0-api-1.0.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.springframework/spring-expression/sources/spring-expression-3.0.5.RELEASE-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.springframework/spring-expression/jars/spring-expression-3.0.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/core/sources/core-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/core/jars/core-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.riotfamily/forms/sources/forms-9.1.0-SNAPSHOT-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/forms/jars/forms-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/karl/.gradle/cache/org.riotfamily/jslibs/jars/jslibs-9.1.0-SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.hibernate/hibernate-ehcache/sources/hibernate-ehcache-3.6.0.Final-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.hibernate/hibernate-ehcache/jars/hibernate-ehcache-3.6.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.directwebremoting/dwr/sources/dwr-3.0.0.161.dev-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.directwebremoting/dwr/jars/dwr-3.0.0.161.dev.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/c3p0/c3p0/sources/c3p0-0.9.1.2-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/c3p0/c3p0/jars/c3p0-0.9.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/org.hibernate/hibernate-core/sources/hibernate-core-3.6.0.Final-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/org.hibernate/hibernate-core/jars/hibernate-core-3.6.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/net.sf.jsr107cache/jsr107cache/sources/jsr107cache-1.0-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/net.sf.jsr107cache/jsr107cache/jars/jsr107cache-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/karl/.gradle/cache/org.hsqldb/hsqldb/jars/hsqldb-1.8.0.10.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/karl/.gradle/cache/commons-logging/commons-logging/sources/commons-logging-1.1.1-sources.jar" kind="lib" path="/Users/karl/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+</classpath>

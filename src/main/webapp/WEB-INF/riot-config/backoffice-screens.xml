@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:util="http://www.springframework.org/schema/util"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:override="http://www.riotfamily.org/schema/common/override"
+    xmlns:s="http://www.riotfamily.org/schema/core/screen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.0.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.riotfamily.org/schema/common/override
+        http://www.riotfamily.org/schema/common/override-9.0.xsd
+        http://www.riotfamily.org/schema/core/screen
+        http://www.riotfamily.org/schema/core/screen-9.0.xsd">
+
+    <util:list id="defaultCommands">
+        <bean class="org.riotfamily.core.screen.list.command.impl.EditCommand" />
+        <bean class="org.riotfamily.core.screen.list.command.impl.DeleteCommand" />
+        <bean class="org.riotfamily.core.screen.list.command.impl.AddCommand" />
+    </util:list>
+    
+    <bean id="publishStatusRenderer" class="org.riotfamily.components.riot.ui.PublishStatusRenderer" />
+    
+    <import resource="editor-screens.xml" />
+    
+    <override:properties ref="home">
+        <property name="screenlets">
+            <list>
+                <bean class="org.riotfamily.core.screenlet.LoginStatusScreenlet" />
+                
+                <!-- See if it is needed <ref bean="notificationScreenlet"/>  -->
+                <!-- Could possibly be used for jQuery-support 
+                <ref bean="jQueryScreenlet"/>
+                 -->
+            </list>
+        </property>
+    </override:properties>
+
+    <util:list id="rootScreens">
+    	<!--  override:add ref="rootScreens">  </override:add>-->
+
+	
+        <bean id="editorial" class="org.riotfamily.core.screen.GroupScreen">
+            <property name="icon" value="layout_edit" />
+            <property name="childScreens" ref="editorScreens" />
+        </bean>
+        
+    </util:list>
+</beans>

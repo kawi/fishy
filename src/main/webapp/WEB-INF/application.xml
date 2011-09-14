@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:override="http://www.riotfamily.org/schema/common/override"
+	xmlns:p="http://www.riotfamily.org/schema/content/page"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.riotfamily.org/schema/common/override
+		http://www.riotfamily.org/schema/common/override-9.0.xsd
+		http://www.riotfamily.org/schema/content/page
+		http://www.riotfamily.org/schema/content/page-9.0.xsd">
+		
+    <context:component-scan base-package="se.report.fish.common" />
+
+	<override:add ref="sessionFactory" property="packagesToScan" append="true">
+        <value>se.report.fish.common.domain.model</value>
+    </override:add>    
+
+    <override:add ref="hibernateInterceptors" append="true">
+        <ref bean="publishFlagInterceptor"/>
+        <ref bean="lastModifyInterceptor"/> 
+    </override:add>
+ 
+    <override:bean ref="cacheService" class="org.riotfamily.cachius.CacheService">
+        <description>
+            A Cachius CacheService instance to cache and serve content.     
+        </description>
+        <constructor-arg>
+            <ref bean="diskStore"/>
+        </constructor-arg>
+    </override:bean>
+    
+    <!--  Specify where the riot-cache files should end up -->
+    <bean id="diskStore" class="org.riotfamily.cachius.persistence.SimpleDiskStore">
+        <constructor-arg>
+            <bean class="java.io.File">
+                <constructor-arg value="${cachius.cache.folder}" />
+            </bean>
+        </constructor-arg>
+    </bean>
+    <!-- TODO: CONF THIS L8RS
+    <override:bean ref="fileStore" class="com.metro.education.common.support.DatabaseFileStore">
+        <property name="uriPrefix" value="${riot.media.uriPrefix=/media}" />
+        <property name="storagePath" value="${riot.media.storagePath}" />
+    </override:bean>
+    
+    -->
+    <!-- JDBC DataSource pooled by C3P0 -->
+    <override:bean ref="c3p0" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver_class}" />
+        <property name="jdbcUrl" value="${jdbc.url}" />
+        <property name="user" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="maxStatements" value="${c3p0.maxStatements}" />
+        <property name="acquireIncrement" value="${c3p0.acquireIncrement}" />
+        <property name="idleConnectionTestPeriod" value="${c3p0.idleConnectionTestPeriod}" />
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize=10}" />
+        <property name="checkoutTimeout" value="${c3p0.checkoutTimeout}" />
+        <property name="automaticTestTable" value="${c3p0.automaticTestTable}" />
+        <property name="testConnectionOnCheckin" value="${c3p0.testConnectionOnCheckin}" />
+        <property name="acquireRetryAttempts" value="${c3p0.acquireRetryAttempts}" />
+        <property name="maxIdleTime" value="${c3p0.maxIdleTime}" />
+    </override:bean>
+    
+    
+    <!-- HQL Options Model, used for HQL Queries in form fields -->
+    <bean id="hqlOptionsModel" class="org.riotfamily.core.form.options.HqlOptionsModel" scope="prototype">
+        <constructor-arg ref="sessionFactory" />
+    </bean>
+    
+	<bean id="defaultPageController" class="org.riotfamily.common.web.controller.CacheableViewController">
+		<property name="viewName" value="pages/default.ftl" />
+	</bean>
+	
+	<!-- TODO: jag tror att detta ska flyttas till website.xml -->
+	<p:schema name="default">
+		<p:root-page>
+			<p:handler>
+				<bean class="org.riotfamily.pages.controller.FolderController" />
+			</p:handler>
+			
+			<p:system-page name="home" handler="defaultPageController" />
+			<p:type name="default" handler="defaultPageController">
+				<p:type-ref name="default" />
+			</p:type>
+
+		</p:root-page>
+	</p:schema>
+	
+</beans>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form-config
+	xmlns="http://www.riotfamily.org/schema/forms/form-config"
+	xmlns:riot="http://www.riotfamily.org/schema/riot/form-elements"
+	xmlns:content="http://www.riotfamily.org/schema/components/form-elements"
+	xmlns:media="http://www.riotfamily.org/schema/media/form-elements"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+		http://www.riotfamily.org/schema/forms/form-config
+		http://www.riotfamily.org/schema/forms/form-config-8.0.xsd
+		http://www.riotfamily.org/schema/riot/form-elements
+		http://www.riotfamily.org/schema/riot/form-elements-8.0.xsd
+		http://www.riotfamily.org/schema/media/form-elements
+		http://www.riotfamily.org/schema/media/form-elements-8.0.xsd
+		http://www.riotfamily.org/schema/components/form-elements
+		http://www.riotfamily.org/schema/components/form-elements-8.0.xsd">
+
+
+	<!-- =============== -->
+	<!-- PAGE PROPERTIES -->
+	<!-- =============== -->
+	
+	<!-- 
+	  - Form elements that are added to all page forms in the Riot backoffice.
+	  -->
+	<form id="all-pages">
+		<textfield bind="title" /> 
+	</form>
+	
+	<!-- 
+	  - Form elements that are added to all page forms of master-pages, i.e.
+	  - pages in sites that don't have a master-site.
+	  -->
+	<!-- 
+	<form id="all-master-pages">
+	</form>
+	-->
+	
+	<!-- 
+	  - Form elements that are added to all page forms with the 
+	  - handler-name "teaser-list".
+	 -->
+	<form id="teaser-list-page">
+		<textfield bind="teaser-title" />
+		<richtext bind="teaser-text" />
+	</form>
+	
+	<!-- 
+	  - Form elements that are added to all master-page forms with the 
+	  - handler-name "foo".
+	 -->
+	<!--
+	<form id="master-foo-page">
+	</form>
+	-->
+
+
+	<!-- =============== -->
+	<!-- SITE PROPERTIES -->
+	<!-- =============== -->
+	
+	<!-- 
+	  - Form elements that are added to all "Site Properties" forms in the
+	  - Riot backoffice.
+	  -->
+	<form id="all-sites">
+		<selectbox bind="theme">
+			<option value="red" />
+			<option value="green" />
+		</selectbox>
+		<textfield bind="googleAnalyticsCode" />
+	</form>
+	 
+	<!-- 
+	  - Form elements that are added to the "Site Properties" forms of all
+	  - master-sites, i.e. sites that don't have a master-site themselves.
+	  -->
+	<!--
+	<form id="master-sites">
+	</form>
+ 	-->
+
+
+	<!-- =========================== -->
+	<!-- FRONTOFFICE PAGE PROPERTIES -->
+	<!-- =========================== -->
+	
+	<form id="page-teaser">
+		<textfield bind="teaser-title" />
+	</form>
+	
+ 
+	<!-- ==================== -->
+	<!-- COMPONENT PROPERTIES -->
+	<!-- ==================== -->
+	
+	<form id="headline">
+		<textfield bind="anchor" regex="[A-Za-z0-9_-]*" />
+	</form>
+
+	<form id="table">
+		<checkbox bind="showHeadings" default="checked" />
+		<numberfield bind="rows" min-value="1" default="3" required="true" />
+		<numberfield bind="cols" min-value="1" default="3" required="true" />
+	</form>
+
+	<form id="image">
+	    <media:image-upload bind="image" widths="100,200,476" max-height="250" required="true" />
+		<selectbox bind="class" required="true"
+			label-message-key="image.class." append-label="true">
+			<option value="block" />
+			<option value="right" />
+			<option value="left" />
+		</selectbox>
+		<textfield bind="alt" />
+		<textarea bind="caption" />
+	</form>
+
+	<form id="gallery-image">
+		<textfield bind="title" />
+		<media:image-upload bind="image" crop="false" required="true" />
+	</form>
+
+	<form id="paragraph">
+		<checkbox bind="clear" />
+	</form>
+	
+</form-config>

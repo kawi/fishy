@@ -1,0 +1,1 @@
+ -Xmx2048m -Xss192k -XX:MaxPermSize=1024m -Duser.language=sv -Duser.region=SE -Dinsight.enabled=false -Dprofile=dev
