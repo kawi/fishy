@@ -14,7 +14,7 @@ repositories {
 	mavenRepo urls: "file://$System.env.HOME/.m2/repository"
 	mavenRepo urls: 'http://repository.riotfamily.org/cache'
 	mavenRepo urls: 'http://repository.riotfamily.org/external'
-// To reach mavenRepo urls: 'http://repository.riotfamily.org/snapshots/'
+	mavenRepo urls: 'http://repository.riotfamily.org/snapshots/'
 }
 
 dependencies {

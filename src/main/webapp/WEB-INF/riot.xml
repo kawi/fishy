@@ -34,6 +34,6 @@
         <value>/WEB-INF/riot-config/forms.xml</value>
     </override:add>
     
+	<!-- root screen moved too riot-config/backoffice-screens.xml -->
 	<import resource="riot-config/backoffice-screens.xml" />
-	
 </beans>

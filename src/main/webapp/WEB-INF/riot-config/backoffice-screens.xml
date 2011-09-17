@@ -37,6 +37,11 @@
         </property>
     </override:properties>
 
+	
+	<override:add ref="rootScreens">
+	        <ref bean="sitemaps" />
+	</override:add>
+	
     <util:list id="rootScreens">
     	<!--  override:add ref="rootScreens">  </override:add>-->
 
