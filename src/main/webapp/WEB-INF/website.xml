@@ -5,6 +5,7 @@
 	xmlns:util="http://www.springframework.org/schema/util"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:override="http://www.riotfamily.org/schema/common/override"
+	xmlns:tx="http://www.springframework.org/schema/tx"
 	xsi:schemaLocation="
 		http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
@@ -12,9 +13,16 @@
 		http://www.springframework.org/schema/util/spring-util-3.0.xsd
 		http://www.springframework.org/schema/context 
         http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/tx 
+        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
 		http://www.riotfamily.org/schema/common/override
 		http://www.riotfamily.org/schema/common/override-9.0.xsd">
 
+    <tx:annotation-driven />
+
+    <override:properties ref="viewResolver">
+        <property name="contentType" value="text/html;charset=UTF-8"/>
+    </override:properties> 
 	<!-- Use the locale defined by the Site being viewed -->
 	<bean id="localeResolver" class="org.riotfamily.pages.SiteLocaleResolver">
 		<!-- You can also set a fallback resolver if the main resolver can't resolve the locale -->

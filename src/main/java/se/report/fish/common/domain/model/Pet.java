@@ -41,7 +41,7 @@ public class Pet extends BaseContentEntity {
     }
 
     @ManyToOne
-    @Cascade(CascadeType.SAVE_UPDATE)
+    @Cascade(CascadeType.ALL)
     public RiotImage getImage() {
 	return this.image;
     }
@@ -52,6 +52,8 @@ public class Pet extends BaseContentEntity {
 
     public void setImage(final RiotImage image) {
 	this.image = image;
+	// Fixme: Bad way of setting a filename
+	this.image.setFileName("myFileName");
     }
 
     public void setName(final String name) {

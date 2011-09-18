@@ -29,9 +29,9 @@
 
     <override:add ref="hibernateInterceptors" append="true">
         <ref bean="publishFlagInterceptor"/>
-        <ref bean="lastModifyInterceptor"/> 
+        <ref bean="saveEntityInterceptor"/> 
     </override:add>
- 
+    
     <override:bean ref="cacheService" class="org.riotfamily.cachius.CacheService">
         <description>
             A Cachius CacheService instance to cache and serve content.     
@@ -49,6 +49,16 @@
             </bean>
         </constructor-arg>
     </bean>
+    
+    <bean class="se.report.fish.common.domain.listener.PetListener">
+        <constructor-arg>
+            <bean class="org.riotfamily.media.processing.ImageMagickThumbnailer">
+                <constructor-arg ref="imageMagick" />
+            </bean>
+        </constructor-arg>
+    </bean>
+     
+     
     <!-- TODO: CONF THIS L8RS
     <override:bean ref="fileStore" class="com.metro.education.common.support.DatabaseFileStore">
         <property name="uriPrefix" value="${riot.media.uriPrefix=/media}" />
@@ -97,5 +107,7 @@
 
 		</p:root-page>
 	</p:schema>
+	
+	
 	
 </beans>

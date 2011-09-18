@@ -18,6 +18,10 @@
 		http://www.riotfamily.org/schema/core/screen
 		http://www.riotfamily.org/schema/core/screen-9.0.xsd">
 	 
+	<override:properties ref="viewResolver">
+        <property name="contentType" value="text/html;charset=UTF-8"/>
+    </override:properties>
+    
 	<util:list id="defaultCommands">
 		<bean class="org.riotfamily.core.screen.list.command.impl.EditCommand" />
 		<bean class="org.riotfamily.core.screen.list.command.impl.DeleteCommand" />

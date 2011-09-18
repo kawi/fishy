@@ -19,7 +19,7 @@
         ">
 
     <util:list id="editorScreens">
-        <s:list id="pets" icon="lightbulb">
+        <s:list id="pets" icon="pill">
             <s:dao>
                 <bean class="org.riotfamily.core.dao.hibernate.HqlDao" autowire="constructor">
                     <property name="entityClass" value="se.report.fish.common.domain.model.Pet" />
@@ -29,7 +29,6 @@
             
             <s:columns>
                 <s:column property="title" />
-                
             </s:columns>
             <s:commands>
                 <ref bean="defaultCommands" />
