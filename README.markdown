@@ -19,3 +19,6 @@
 <code>
 	-Xmx2048m -Xss192k -XX:MaxPermSize=1024m -Dprofile=dev -Duser.language=sv -Duser.region=SE -Dinsight.enabled=false
 </code>
+
+##3 * Creat database
+Set encoding to utf8;
