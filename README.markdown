@@ -1,8 +1,4 @@
 
-#TODO: #
- 1. Lägg till pets i backoffice
- 2. Lägg till system-screen i backoffice
- 3. Se till att frontoffice edit går
 
 * * *
 
@@ -21,4 +17,4 @@
 </code>
 
 ##3 * Creat database
-Set encoding to utf8;
+Set encoding to utf8

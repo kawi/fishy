@@ -18,14 +18,7 @@ repositories {
 }
 
 dependencies {
-	compile 'org.riotfamily:content:9.1.0-SNAPSHOT',
-            'org.springframework:spring-context:3.0.3.RELEASE',
-            'org.springframework:spring-webmvc:3.0.3.RELEASE',
-            'org.springframework:spring-tx:3.0.3.RELEASE',
-            'org.springframework:spring-jdbc:3.0.3.RELEASE',
-            'org.springframework:spring-orm:3.0.3.RELEASE',
-            'org.springframework:spring-oxm:3.0.3.RELEASE',
-            'org.springframework:spring-test:3.0.3.RELEASE'
+	compile 'org.riotfamily:content:9.1.0-SNAPSHOT'
 	
 	runtime 'org.hsqldb:hsqldb:1.8.0.10',
 			'org.slf4j:jcl-over-slf4j:1.6.2',
